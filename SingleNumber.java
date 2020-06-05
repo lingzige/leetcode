@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.concurrent.Executor;
+
 public class SingleNumber {
     public static void main(String[] args) {
         int[] arr = {2,2,1};
@@ -12,4 +14,5 @@ public class SingleNumber {
         }
         return s;
     }
+
 }
